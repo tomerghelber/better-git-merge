@@ -1,5 +1,8 @@
 package com.github.tomerghelber.ast;
 
+import lombok.Data;
+
+@Data
 public class Variable implements ASTNode {
-    public String identifier;
+    private final String identifier;
 }
