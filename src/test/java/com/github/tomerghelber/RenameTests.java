@@ -11,7 +11,7 @@ class RenameTests {
     void twoVariable() {
         Variable a = new Variable("a");
         Variable b = new Variable("b");
-        bool ret Basic.isRename(a, b);
+        bool ret = Basic.isRename(a, b);
         assertEquals(true, ret);
     }
 }
