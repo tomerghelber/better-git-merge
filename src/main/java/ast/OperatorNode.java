@@ -1,9 +1,12 @@
 package com.github.tomerghelber.ast;
 
+import lombok.Data;
+
+@Data
 public class OperatorNode implements ASTNode  {
-    public Variable variable;
-    public Node value;
-    public Operator operator;
+    private final Variable variable;
+    private final Node value;
+    private final Operator operator;
 
     public static enum Operator {
         Assign,
