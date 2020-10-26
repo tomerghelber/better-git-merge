@@ -1,5 +1,5 @@
 package com.github.tomerghelber;
-    
+
 /**
  * Main class.
  */
