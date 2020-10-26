@@ -33,5 +33,5 @@ jobs:
         path: target/site/jacoco 
         if-no-files-found: error
 
-    - name: Mutation test
-      run: mvn -DwithHistory org.pitest:pitest-maven:mutationCoverage
+#     - name: Mutation test
+#       run: mvn -DwithHistory org.pitest:pitest-maven:mutationCoverage
