@@ -1,5 +1,8 @@
 package com.github.tomerghelber.ast;
 
+import lombok.Data;
+
+@Data
 public class Value implements ASTNode {
-    public String value;
+    private final String value;
 }
