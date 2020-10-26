@@ -26,9 +26,12 @@ jobs:
     - name: Test with Maven
       run: mvn test
 
-    - name: Upload jacoco code coverage
+    - name: Upload code coverage
       uses: actions/upload-artifact@v2.2.0
       with:
         name: jacoco-code-coverage
         path: target/site/jacoco 
         if-no-files-found: error
+
+    - name: Mutation test
+      run: mvn -DwithHistory org.pitest:pitest-maven:mutationCoverage
