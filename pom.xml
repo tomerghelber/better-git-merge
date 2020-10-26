@@ -42,11 +42,11 @@
         </dependency>
     </dependencies>
 
-    <annotationProcessorPaths>
+    <!--annotationProcessorPaths>
         <path>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.16</version>
         <path>
-    </annotationProcessorPaths>
+    </annotationProcessorPaths-->
 </project>
